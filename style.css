@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(119, 12, 114), rgb(248, 106, 5));
+    display: flex;   
+    align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.inside{
+     width: 90%;
+}
+.picture{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    margin:5px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#template{
+    width: 400px;
+    background: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    margin: 20px;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.second{
+    height: 250px;
+    width: 100%;
+}
+.views{
+    width: 100%;
+    
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.view{
+    opacity: 50%;
+}
+.days{
+    opacity: 20%;
+}
+.Like{
+    height: 20px;
+    width: 20px;
+}
+.Message{
+    height: 40px;
+    width: 40px;
+}
+.Send{
+height: 20px;
+width:20px;
+}
+.Tag{
+height: 20px;
+width: 20px;
+}
+.mum{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.three{
+    display: flex;
+    align-items: center;
+}
+.IG{
+    margin-top: -10px;
+    font-weight: bold;
+}
